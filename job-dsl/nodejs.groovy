@@ -1,8 +1,8 @@
 job("nodejs app deploy") {
     scm {
         git('https://github.com/jinwoov/BlogPost-Node.git') { node -> 
-        node / gitConfig("jinwoov")
-        node / gitconfig("jinwoov@gmail.com")
+            node / gitConfigName("jinwoov")
+            node / gitConfigEmail("jinwoov@gmail.com")
         }
     }
     triggers {
