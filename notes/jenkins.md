@@ -1,0 +1,13 @@
+- open source written in java
+- automation tool used for build and deliver software
+- has a lot of plugin
+- what is CI/CD
+    - CI: Merging all developer working copies
+    - CD: team produce software in short cycles and reliably released at any time
+- Jenkinds doesn't merge code, doesn't solve conflict
+- force developer to fix the code immediately
+- jenkins can publish every build of your software
+- SDLC (software development lifecycle)
+- Developer -> Build (features and master, compile) -> can send back to the developer or -> test (unit test, integration test, regression test, user appcetance test and more tests) -> send back if the test fails otherwise -> release (packaged in zip) -> provision deploy -> customer can use it
+- should be plan and monitor
+- Drone CI, Teamcity, hosted werker circle CI codeship semaphore 
