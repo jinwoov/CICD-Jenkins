@@ -5,7 +5,7 @@ job("nodejs app deploy") {
         node / gitconfig("jinwoov@gmail.com")
         }
     }
-    trigger {
+    triggers {
         scm('H/5 * * * *')
     }
     wrappers {
