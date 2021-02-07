@@ -1,6 +1,6 @@
 job("nodejs app deploy") {
     scm {
-        git('git://github.com/jinwoov/BlogPost-Node.git') { node -> 
+        git('https://github.com/jinwoov/BlogPost-Node.git) { node -> 
         node / gitConfig("jinwoov")
         node / gitconfig("jinwoov@gmail.com")
         }
