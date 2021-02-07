@@ -9,7 +9,7 @@ node { // build on any node
 
     stage('docker build/push') {
         docker.withRegistry('https://index.docker.io/v1/', 'dockerhub') {
-            def app = docker.build("jinwoov/nodejs-tester:${commit_id}", '.').push()
+            def app = docker.build("jinwoov/nodejs-tester:latest", '.').push()
         }
     }
 }
