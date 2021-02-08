@@ -11,7 +11,7 @@ div {
 
 @keyframes changeColor {
     0% {
-        background-color: lightcoral;
+        background-color: lightsalmon;
     }
     20% {
         background-color: lightgoldenrodyellow;
@@ -24,5 +24,5 @@ div {
 
 body {
     height: 100vh;
-    animation: changeColor 5s infinite;
+    animation: changeColor 8s infinite;
 }
