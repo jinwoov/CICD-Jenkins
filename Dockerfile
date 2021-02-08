@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY ./mock ./
 
-WORKDIR /app/client
+WORKDIR /app
 
 EXPOSE 3000
 
