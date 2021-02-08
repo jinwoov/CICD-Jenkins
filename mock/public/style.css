@@ -1,3 +1,28 @@
 h1 {
     text-align: center;
 }
+
+div {
+    position:absolute;
+    top:45%;
+    width: 100%;
+    margin: auto;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: lightsalmon;
+    }
+    20% {
+        background-color: lightgoldenrodyellow;
+    }
+    40% {background-color: lightseagreen;}
+    60% {background-color: lightblue;}
+    80% {background-color: lightgray;}
+    100% {background-color: white;}
+}
+
+body {
+    height: 100vh;
+    animation: changeColor 8s infinite;
+}
